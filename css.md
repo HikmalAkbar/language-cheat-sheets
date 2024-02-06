@@ -11,13 +11,13 @@ An element selector in CSS is used to target and apply styles to all elements of
 
 Here's the basic syntax of an element selector:
 
-```
+```css
 element {
   /* CSS properties */
 }
 ```
 
-```
+```css
 element {
   p {
     color: blue;
