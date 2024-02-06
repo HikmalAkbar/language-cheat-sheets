@@ -18,8 +18,7 @@ element {
 ```
 
 ```css
-element {
-  p {
+p {
     color: blue;
     font-size: 16px;
 }
