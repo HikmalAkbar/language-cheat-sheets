@@ -6,7 +6,7 @@ CSS stands for Cascading Style Sheets. It's a style sheet language used to descr
 ### 1. Selector
 A CSS selector is a pattern used to select and style elements within an HTML document. Selectors target specific HTML elements based on their attributes, IDs, classes, or relationship to other elements. They allow you to apply styles to specific elements or groups of elements, giving you fine-grained control over the appearance of your web pages.
 
-#### 1.1 - Universal selector  
+#### 1.1 - Universal selector - Only once / Very rare
 The universal selector (*) in CSS matches any element type. It is often used to apply styles globally to all elements within a document. 
 
 Here's the basic syntax of the universal selector:
@@ -24,7 +24,7 @@ Here's the basic syntax of the universal selector:
 }
 ```
 
-#### 1.2 - Element selector
+#### 1.2 - Element selector - Sometimes
 An element selector in CSS is used to target and apply styles to all elements of a specific type within an HTML document. It selects elements based solely on their HTML tag names.
 
 Here's the basic syntax of an element selector:
@@ -63,7 +63,7 @@ body {
 }
 ```
 
-#### 1.3 - Class selector 
+#### 1.3 - Class selector - Most used
 A class selector in CSS is used to target and apply styles to elements that have a specific class attribute. Class selectors allow you to apply styles to multiple elements across your HTML document, even if they are different types of elements.
 
 Here's the basic syntax of a class selector:
