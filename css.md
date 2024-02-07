@@ -24,6 +24,24 @@ Here's the basic syntax of the universal selector:
 }
 ```
 
+#### 1.2 - Element selector
+An element selector in CSS is used to target and apply styles to all elements of a specific type within an HTML document. It selects elements based solely on their HTML tag names.
+
+Here's the basic syntax of an element selector:
+
+```css
+element {
+  /* CSS properties */
+}
+```
+
+```css
+p {
+    color: blue;
+    font-size: 16px;
+}
+```
+
 ```css
 html {
     margin: 0;
@@ -42,24 +60,6 @@ main {
 body {
     margin: 0;
     padding: 0;
-}
-```
-
-#### 1.2 - Element selector
-An element selector in CSS is used to target and apply styles to all elements of a specific type within an HTML document. It selects elements based solely on their HTML tag names.
-
-Here's the basic syntax of an element selector:
-
-```css
-element {
-  /* CSS properties */
-}
-```
-
-```css
-p {
-    color: blue;
-    font-size: 16px;
 }
 ```
 
