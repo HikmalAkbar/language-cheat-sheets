@@ -111,6 +111,8 @@ Here's the basic syntax of an ID selector:
 ### 2. Colors
 In CSS, colors can be specified using various formats, including predefined color names, hexadecimal notation, RGB values, RGBA values, HSL values, and HSLA values. Here's an overview of each format:
 
+> Website for contrast checker [Coolors.co](https://coolors.co/)
+
 #### 2.1 - Predefined Color Names
 CSS provides a set of predefined color names that you can use. For example:
 
@@ -157,9 +159,6 @@ HSLA is similar to HSL, but with an additional alpha channel for opacity. HSLA c
 color: hsla(0, 100%, 50%, 0.5); /* semi-transparent red */
 background-color: hsla(240, 100%, 50%, 0.75); /* semi-transparent blue */
 ```
-
-#### > Website for contrast checker [Coolors.co](https://coolors.co/)
-
 
 ### 3. Units
 
