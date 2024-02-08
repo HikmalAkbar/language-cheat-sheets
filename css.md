@@ -167,7 +167,7 @@ https://coolors.co/
 ### 3. Units
 
 ```
-Don't use font-size: px; as it is going to take away user's option from changing their browser font size 
+> Don't use font-size: px; as it is going to take away user's option from changing their browser font size 
 ```
 
 In CSS, there are various units of measurement used to define sizes and distances. These units can be broadly categorized into two types: absolute units and relative units. Here's an overview of each:
