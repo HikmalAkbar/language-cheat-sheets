@@ -113,3 +113,48 @@ In CSS, colors can be specified using various formats, including predefined colo
 
 #### 2.1 - Predefined Color Names
 CSS provides a set of predefined color names that you can use. For example:
+
+```css
+color: red;
+background-color: blue;
+```
+
+#### 2.2 - Hexadecimal Notation
+ Colors can also be specified using hexadecimal notation, which represents the red, green, and blue components of the color. Hexadecimal colors start with a hash (#) followed by three or six hexadecimal digits. For example:
+ 
+```css
+color: #ff0000; /* red */
+background-color: #0000ff; /* blue */
+```
+
+#### 2.3 - RGB Values
+RGB stands for red, green, and blue. Each color component is represented by an integer value between 0 and 255. RGB colors are specified using the rgb() function. For example:
+
+```css
+color: rgb(255, 0, 0); /* red */
+background-color: rgb(0, 0, 255); /* blue */
+```
+
+#### 2.4 - RGBA Values
+RGBA is similar to RGB, but with an additional alpha channel that represents the opacity of the color. The alpha value is specified as a number between 0 and 1. RGBA colors are specified using the rgba() function. For example:
+
+```css
+color: rgba(255, 0, 0, 0.5); /* semi-transparent red */
+background-color: rgba(0, 0, 255, 0.75); /* semi-transparent blue */
+```
+
+#### 2.5 - HSL Values
+HSL stands for hue, saturation, and lightness. Hue is represented as an angle between 0 and 360 degrees, saturation and lightness are represented as percentages. HSL colors are specified using the hsl() function. For example:
+```css
+color: hsla(0, 100%, 50%, 0.5); /* semi-transparent red */
+background-color: hsla(240, 100%, 50%, 0.75); /* semi-transparent blue */
+```
+
+#### 2.6 - Predefined Color Names
+HSLA is similar to HSL, but with an additional alpha channel for opacity. HSLA colors are specified using the hsla() function. For example:
+
+```css
+color: hsla(0, 100%, 50%, 0.5); /* semi-transparent red */
+background-color: hsla(240, 100%, 50%, 0.75); /* semi-transparent blue */
+```
+
