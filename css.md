@@ -9,22 +9,18 @@ A CSS selector is a pattern used to select and style elements within an HTML doc
 #### 1.1 - Universal selector
 
 > [!NOTE]
-> Rarely used/once.
+> Used for CSS reset.
 
 The universal selector (*) in CSS matches any element type. It is often used to apply styles globally to all elements within a document. 
 
 Here's the basic syntax of the universal selector:
 
 ```css
-* {
-    /* CSS properties */
-}
-```
-
-```css
+//CSS Reset
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 ```
 
