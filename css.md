@@ -204,11 +204,11 @@ The CSS box model is a fundamental concept that describes how elements are rende
 #### 4.1 - Content
 This is the innermost part of the box and contains the actual content of the element, such as text, images, or other HTML elements. The content area's dimensions are specified using the width and height properties.
 
-#### 4.2 - Content
-This is the innermost part of the box and contains the actual content of the element, such as text, images, or other HTML elements. The content area's dimensions are specified using the width and height properties.
+#### 4.2 - Padding
+The padding is the space between the content area and the element's border. It's used to create space around the content without affecting the element's background or border. Padding can be specified using the padding property or individual properties like padding-top, padding-right, padding-bottom, and padding-left.
 
-#### 4.3 - Content
-This is the innermost part of the box and contains the actual content of the element, such as text, images, or other HTML elements. The content area's dimensions are specified using the width and height properties.
+#### 4.3 - Border
+The border surrounds the padding and content areas and defines the visible boundary of the element. It can have a thickness, style, and color specified using the border property or individual properties like border-width, border-style, and border-color.
 
-#### 4.4 - Content
-This is the innermost part of the box and contains the actual content of the element, such as text, images, or other HTML elements. The content area's dimensions are specified using the width and height properties.
+#### 4.4 - Margin
+The margin is the space outside the element's border and defines the distance between the element and adjacent elements in the layout. Margins can be specified using the margin property or individual properties like margin-top, margin-right, margin-bottom, and margin-left.
