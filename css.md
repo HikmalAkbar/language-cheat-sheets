@@ -210,11 +210,11 @@ The border surrounds the padding and content areas and defines the visible bound
 The margin is the space outside the element's border and defines the distance between the element and adjacent elements in the layout. Margins can be specified using the margin property or individual properties like margin-top, margin-right, margin-bottom, and margin-left.
 
 > [!TIP]
-> - You can customize 4-sides of margin/padding
+> - You can customize 4-sides of margin/padding, order; top, right, bottom, left
 
 ```css
 .container {
     margin:  1em 2em; /*Margin top and bottom = 1em, while margin left and right = 2em*/
-    padding: 1em 2m 3em; /*Padding top 1em, padding bottom = 2em, while padding left and right = 3em*/
+    padding: 1em 2m 3em; /*Padding top 1em, padding right and left = 2em, while padding bottom = 3em*/
 }
 ```
