@@ -184,7 +184,7 @@ background-color: hsla(240, 100%, 50%, 0.75); /* semi-transparent blue */
 
 In CSS, there are various units of measurement used to define sizes and distances. These units can be broadly categorized into two types: absolute units and relative units. Here's an overview of each:
 
-1. **Absolute Units**:
+3.1 - **Absolute Units**:
    - Pixel (px): A pixel is a single dot on a screen. It's a fixed-size unit that does not change with the size of the viewport. Pixels are commonly used for precise control over element sizes and positions.
    - Point (pt): A point is a physical unit of measurement commonly used in print design. One point is equal to 1/72 of an inch. It's less commonly used in web design but can be useful for maintaining consistent sizing across different media.
 
@@ -192,10 +192,23 @@ In CSS, there are various units of measurement used to define sizes and distance
 > - Use width with percentage instead of vw as vw tends to cause horizontal scroll to appear
 > - Sometimes *min-height: 100vh;* might be used or not; [article](https://ilxanlar.medium.com/you-shouldnt-rely-on-css-100vh-and-here-s-why-1b4721e74487)
 
-2. **Relative Units**:
+3.2 - **Relative Units**:
    - Percentage (%): Percentage units are relative to the parent element. For example, if you set an element's width to 50%, it will take up half the width of its parent element.
    - Viewport Width (vw): One viewport width unit is equal to 1% of the width of the viewport. This unit is useful for creating designs that scale with the size of the viewport.
    - Viewport Height (vh): One viewport height unit is equal to 1% of the height of the viewport. Similar to vw, vh is useful for creating designs that scale with viewport height.
    - Font-relative Lengths (em, rem): These units are relative to the font size of the element. em is relative to the font size of the parent element, while rem is relative to the font size of the root (html) element. They're commonly used for responsive typography.
 
 ### 4. Box Models
+The CSS box model is a fundamental concept that describes how elements are rendered on a web page. It consists of four main components: content, padding, border, and margin. These components surround an element's content area and determine its size and spacing within the layout. Here's an overview of each component:
+
+#### 4.1 - Content
+This is the innermost part of the box and contains the actual content of the element, such as text, images, or other HTML elements. The content area's dimensions are specified using the width and height properties.
+
+#### 4.2 - Content
+This is the innermost part of the box and contains the actual content of the element, such as text, images, or other HTML elements. The content area's dimensions are specified using the width and height properties.
+
+#### 4.3 - Content
+This is the innermost part of the box and contains the actual content of the element, such as text, images, or other HTML elements. The content area's dimensions are specified using the width and height properties.
+
+#### 4.4 - Content
+This is the innermost part of the box and contains the actual content of the element, such as text, images, or other HTML elements. The content area's dimensions are specified using the width and height properties.
