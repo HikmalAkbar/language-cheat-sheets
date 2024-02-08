@@ -127,6 +127,7 @@ Here's the basic syntax of an ID selector:
 ### 2. Colors
 In CSS, colors can be specified using various formats, including predefined color names, hexadecimal notation, RGB values, RGBA values, HSL values, and HSLA values. Here's an overview of each format:
 
+> [!TIP]
 > Website for contrast checker [Coolors.co](https://coolors.co/)
 
 #### 2.1 - Predefined Color Names
@@ -178,6 +179,7 @@ background-color: hsla(240, 100%, 50%, 0.75); /* semi-transparent blue */
 
 ### 3. Units
 
+> [!NOTE]
 > Don't use font-size: px; as it is going to take away user's option from changing their browser font size 
 
 In CSS, there are various units of measurement used to define sizes and distances. These units can be broadly categorized into two types: absolute units and relative units. Here's an overview of each:
