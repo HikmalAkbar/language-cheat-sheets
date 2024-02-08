@@ -206,12 +206,29 @@ The padding is the space between the content area and the element's border. It's
 #### 4.3 - Border
 The border surrounds the padding and content areas and defines the visible boundary of the element. It can have a thickness, style, and color specified using the border property or individual properties like border-width, border-style, and border-color.
 
+> [!TIP]
+> - You can customize size and style each sides of border
+> - You can use shorthand property
+
+```css
+.element {
+    border-width: 2px;
+    border-style: solid;
+    border-color: red;
+}
+```
+
+```css
+.element {
+    border: 2px solid red;
+}
+```
+
 #### 4.4 - Margin
 The margin is the space outside the element's border and defines the distance between the element and adjacent elements in the layout. Margins can be specified using the margin property or individual properties like margin-top, margin-right, margin-bottom, and margin-left.
 
 > [!TIP]
 > - You can customize each sides of margin/padding, order; top, right, bottom, left
-> - You can customize size and style each sides of border 
 
 ```css
 .container {
