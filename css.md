@@ -183,3 +183,17 @@ background-color: hsla(240, 100%, 50%, 0.75); /* semi-transparent blue */
 > Don't use font-size: px; as it is going to take away user's option from changing their browser font size 
 
 In CSS, there are various units of measurement used to define sizes and distances. These units can be broadly categorized into two types: absolute units and relative units. Here's an overview of each:
+
+Absolute Units:
+
+Pixel (px): A pixel is a single dot on a screen. It's a fixed-size unit that does not change with the size of the viewport. Pixels are commonly used for precise control over element sizes and positions.
+Point (pt): A point is a physical unit of measurement commonly used in print design. One point is equal to 1/72 of an inch. It's less commonly used in web design but can be useful for maintaining consistent sizing across different media.
+Inch (in): An inch is a physical unit of measurement equal to 96 pixels. It's rarely used in web design due to the variability of screen sizes and resolutions.
+Relative Units:
+
+Percentage (%): Percentage units are relative to the parent element. For example, if you set an element's width to 50%, it will take up half the width of its parent element.
+Viewport Width (vw): One viewport width unit is equal to 1% of the width of the viewport. This unit is useful for creating designs that scale with the size of the viewport.
+Viewport Height (vh): One viewport height unit is equal to 1% of the height of the viewport. Similar to vw, vh is useful for creating designs that scale with viewport height.
+Font-relative Lengths (em, rem): These units are relative to the font size of the element. em is relative to the font size of the parent element, while rem is relative to the font size of the root (html) element. They're commonly used for responsive typography.
+Character Width (ch): One character width unit is equal to the width of the "0" (zero) character in the current font. It's useful for creating layouts based on characters, such as code snippets.
+Flexible Length (fr): This unit is used in CSS Grid Layout to distribute available space between grid items in proportion to their specified fractions.
