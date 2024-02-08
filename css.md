@@ -16,7 +16,7 @@ The universal selector (*) in CSS matches any element type. It is often used to 
 Here's the basic syntax of the universal selector:
 
 ```css
-/*CSS Reset*/
+CSS Reset
 * {
     margin: 0;
     padding: 0;
