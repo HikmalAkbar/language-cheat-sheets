@@ -158,11 +158,8 @@ color: hsla(0, 100%, 50%, 0.5); /* semi-transparent red */
 background-color: hsla(240, 100%, 50%, 0.75); /* semi-transparent blue */
 ```
 
-#### 2.X Website for contrast checker
+> Website for contrast checker [Coolors.co](https://coolors.co/)
 
-```
-https://coolors.co/
-```
 
 ### 3. Units
 
