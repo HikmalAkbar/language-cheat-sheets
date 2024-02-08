@@ -190,7 +190,7 @@ In CSS, there are various units of measurement used to define sizes and distance
 
 > [!TIP]
 > - Use width with percentage instead of vw as vw tends to cause horizontal scroll to appear
-> - Sometimes min-height: 100vh; might be used; [article] (https://ilxanlar.medium.com/you-shouldnt-rely-on-css-100vh-and-here-s-why-1b4721e74487)
+> - Sometimes min-height: 100vh; might be used or not; [article](https://ilxanlar.medium.com/you-shouldnt-rely-on-css-100vh-and-here-s-why-1b4721e74487)
 
 2. **Relative Units**:
    - Percentage (%): Percentage units are relative to the parent element. For example, if you set an element's width to 50%, it will take up half the width of its parent element.
