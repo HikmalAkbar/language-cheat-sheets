@@ -160,6 +160,6 @@ background-color: hsla(240, 100%, 50%, 0.75); /* semi-transparent blue */
 
 #### Website for contrast checker
 
-```
+```html
 https://coolors.co/
 ```
