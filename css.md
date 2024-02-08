@@ -28,7 +28,11 @@ Here's the basic syntax of the universal selector:
 }
 ```
 
-#### 1.2 - Element selector - Sometimes
+#### 1.2 - Element selector
+
+> [!NOTE]
+> Used sometimes.
+
 An element selector in CSS is used to target and apply styles to all elements of a specific type within an HTML document. It selects elements based solely on their HTML tag names.
 
 Here's the basic syntax of an element selector:
@@ -67,7 +71,11 @@ body {
 }
 ```
 
-#### 1.3 - Class selector - Most used
+#### 1.3 - Class selector
+
+> [!NOTE]
+> Most used in project.
+
 A class selector in CSS is used to target and apply styles to elements that have a specific class attribute. Class selectors allow you to apply styles to multiple elements across your HTML document, even if they are different types of elements.
 
 Here's the basic syntax of a class selector:
@@ -90,7 +98,11 @@ Here's the basic syntax of a class selector:
 <div class="highlight">This div also has the highlight class.</div>
 ```
 
-#### 1.4 - ID selector - Not good practice
+#### 1.4 - ID selector
+
+> [!NOTE]
+> Not good practice; refrain from using it.
+
 An ID selector in CSS is used to target and apply styles to a single element with a specific ID attribute within an HTML document. IDs must be unique within a page, meaning only one element can have a particular ID at a time.
 
 Here's the basic syntax of an ID selector:
