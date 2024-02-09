@@ -424,16 +424,16 @@ In CSS, pseudo-classes are used to define a special state of an element. They al
 
 Here are some commonly used pseudo-classes in CSS:
 
-1. *:hover*: Styles an element when the mouse pointer is over it.
-2. *:active*: Styles an element while it is being activated by the user (e.g., clicking a link).
-3. *:focus*: Styles an element when it gains focus (e.g., via keyboard navigation or clicking).
-4. *:visited*: Styles a link that has been visited by the user.
-5. *:first-child*: Styles the first child element of its parent.
-6. *:last-child*: Styles the last child element of its parent.
-7. *:nth-child()*: Styles elements based on their position within their parent. It allows you to target elements by index or using a formula.
-8. *:nth-of-type()*: Similar to :nth-child(), but only matches elements of a specified type.
-9. *:not()*: Styles elements that do not match a specified selector.
-10. *:checked*: Styles form elements (like checkboxes or radio buttons) that are checked.
+1. ***:hover***: Styles an element when the mouse pointer is over it.
+2. ***:active***: Styles an element while it is being activated by the user (e.g., clicking a link).
+3. ***:focus***: Styles an element when it gains focus (e.g., via keyboard navigation or clicking).
+4. ***:visited***: Styles a link that has been visited by the user.
+5. ***:first-child***: Styles the first child element of its parent.
+6. ***:last-child***: Styles the last child element of its parent.
+7. ***:nth-child()***: Styles elements based on their position within their parent. It allows you to target elements by index or using a formula.
+8. ***:nth-of-type()***: Similar to :nth-child(), but only matches elements of a specified type.
+9. ***:not()***: Styles elements that do not match a specified selector.
+10. ***:checked***: Styles form elements (like checkboxes or radio buttons) that are checked.
 
 ```css
 /* Styles for links */
