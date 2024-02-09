@@ -179,11 +179,12 @@ background-color: hsla(240, 100%, 50%, 0.75); /* semi-transparent blue */
 ### 3. Units
 
 > [!NOTE]
-> Don't use *font-size: px;* as it is going to take away user's option from changing their browser font size 
+> Don't use *font-size: px;* as it is going to take away user's option from changing their browser font size
+> Value keywords not included below: normal, number, initial, inherit 
 
 In CSS, there are various units of measurement used to define sizes and distances. These units can be broadly categorized into two types: absolute units and relative units. Here's an overview of each:
 
-3.1 - **Absolute Units**:
+3.1 - **Absolute Units (Length)**:
    - Pixel (px): A pixel is a single dot on a screen. It's a fixed-size unit that does not change with the size of the viewport. Pixels are commonly used for precise control over element sizes and positions.
    - Point (pt): A point is a physical unit of measurement commonly used in print design. One point is equal to 1/72 of an inch. It's less commonly used in web design but can be useful for maintaining consistent sizing across different media.
 
@@ -256,8 +257,16 @@ body {
 Sets the size of the font. You can specify the size in various units such as pixels (px), points (pt), percentages (%), ems (em), or keywords like small, medium, large, etc.
 
 ```css
+p {
+    font-size: 16px; /* Sets the font size to 16 pixels */
+}
+
 h1 {
-    font-size: 24px;
+    font-size: 2em; /* Sets the font size to twice the size of the parent element's font size */
+}
+
+span {
+    font-size: 120%; /* Sets the font size to 120% of the parent element's font size */
 }
 ```
 
@@ -266,7 +275,15 @@ Specifies the thickness of the font. Common values include normal, bold, bolder,
 
 ```css
 p {
-    font-weight: bold;
+    font-weight: normal; /* Sets the text to normal thickness */
+}
+
+h1 {
+    font-weight: bold; /* Sets the text to bold */
+}
+
+span {
+    font-weight: 600; /* Sets the text to a font weight equivalent to "semi-bold" */
 }
 ```
 
@@ -275,7 +292,15 @@ Sets the height of a line of text. It can be specified as a number, unitless val
 
 ```css
 p {
-    line-height: 1.5;
+    line-height: 1.5; /* Sets the line height to one and a half times the font size */
+}
+
+h1 {
+    line-height: 1.2em; /* Sets the line height to 1.2 times the font size in pixels */
+}
+
+span {
+    line-height: 120%; /* Sets the line height to 120% of the font size */
 }
 ```
 
