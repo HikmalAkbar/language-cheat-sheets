@@ -4,7 +4,7 @@
 CSS stands for Cascading Style Sheets. It's a style sheet language used to describe the presentation of a document written in a markup language like HTML. CSS describes how elements should be displayed on screen, in print, or in other media. It allows web developers to control the layout, colors, fonts, and other aspects of the presentation of their web pages, ensuring consistency and flexibility across different devices and screen sizes. CSS works by selecting HTML elements and applying styling rules to them, either directly within HTML files, through external CSS files, or via inline styling.
 
 > [!IMPORTANT]
-> Website for contrast checker [CSS]([https://coolors.co/](https://developer.mozilla.org/en-US/docs/Web/CSS))
+> Documentation: [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 ### 1. Selector
 A CSS selector is a pattern used to select and style elements within an HTML document. Selectors target specific HTML elements based on their attributes, IDs, classes, or relationship to other elements. They allow you to apply styles to specific elements or groups of elements, giving you fine-grained control over the appearance of your web pages.
