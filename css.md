@@ -270,7 +270,20 @@ span {
 }
 ```
 
-#### 5.3 Font Weight
+#### 5.3 Font Style
+The font-style property in CSS is used to specify the style of the font in text elements. It controls whether the text is displayed in a normal, italic, or oblique style.
+
+```css
+p {
+    font-style: italic; /* Displays text in italic style */
+}
+
+h1 {
+    font-style: normal; /* Resets text to normal (non-italic) style */
+}
+```
+
+#### 5.4 Font Weight
 Specifies the thickness of the font. Common values include normal, bold, bolder, lighter, or numeric values like 100, 200, ..., 900.
 
 ```css
@@ -287,7 +300,7 @@ span {
 }
 ```
 
-#### 5.4 Line Height
+#### 5.5 Line Height
 Sets the height of a line of text. It can be specified as a number, unitless value, percentage, or length.
 
 ```css
@@ -304,7 +317,7 @@ span {
 }
 ```
 
-#### 5.5 Text Align
+#### 5.6 Text Align
 Specifies the horizontal alignment of text within its container. Common values include left, right, center, and justify.
 
 ```css
@@ -313,7 +326,7 @@ Specifies the horizontal alignment of text within its container. Common values i
 }
 ```
 
-#### 5.6 Text Decoration
+#### 5.7 Text Decoration
 Adds decorative styling to text, such as underline, overline, line-through, or none.
 
 ```css
@@ -322,7 +335,7 @@ a {
 }
 ```
 
-#### 5.7 Text Indent
+#### 5.8 Text Indent
 Used to specify the indentation of the first line of text within an element. It allows you to control the amount of space between the left (or right, in RTL languages) edge of the element's content area and the start of the text.
 
 ```css
@@ -334,6 +347,76 @@ p {
 }
 ```
 
-#### 5.7 
-#### 5.7 
-#### 5.7 
+#### 5.9 Letter Spacing 
+In CSS, the letter-spacing property is used to control the spacing between characters in text. It allows you to adjust the amount of space between each letter in a text element, either increasing or decreasing the spacing.
+
+```css
+p {
+    letter-spacing: 2px; /* Increases the spacing between characters by 2 pixels */
+}
+
+h1 {
+    letter-spacing: -0.1em; /* Decreases the spacing between characters by 0.1 em units */
+}
+```
+
+#### 5.10 Word Spacing 
+In CSS, the word-spacing property is used to control the spacing between words in text. It allows you to adjust the amount of space between words within a text element.
+
+```css
+p {
+    word-spacing: 2px; /* Increases the spacing between words by 2 pixels */
+}
+
+h1 {
+    word-spacing: -0.1em; /* Decreases the spacing between words by 0.1 em units */
+}
+```
+
+#### 5.11 Text Transform 
+The text-transform property in CSS is used to specify how the text should be capitalized. It allows you to control the capitalization of text within an element, converting it to uppercase, lowercase, or capitalize the first letter of each word.
+
+```css
+p {
+    text-transform: uppercase; /* Converts text to uppercase */
+}
+
+h1 {
+    text-transform: lowercase; /* Converts text to lowercase */
+}
+
+span {
+    text-transform: capitalize; /* Capitalizes the first character of each word */
+}
+```
+
+#### 5.12 White Space 
+In CSS, the white-space property is used to control how white space inside an element is handled. It specifies whether to preserve white space characters such as spaces, tabs, and line breaks, or to collapse them into a single space.
+
+```css
+p {
+    white-space: nowrap; /* Prevents text from wrapping */
+}
+
+pre {
+    white-space: pre; /* Preserves white space characters exactly as they appear */
+}
+
+span {
+    white-space: pre-wrap; /* Preserves white space characters and allows text to wrap */
+}
+```
+
+#### 5.13 Text Overflow 
+In CSS, the text-overflow property is used to specify how overflowed text should be handled when it's too long to fit within its container. It is particularly useful when dealing with text elements that have a fixed width and may contain content that exceeds that width.
+
+```css
+div {
+    width: 200px; /* Set a fixed width for the container */
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide any overflowing content */
+    text-overflow: ellipsis; /* Append an ellipsis to the end of the text */
+}
+```
+
+### 6 
