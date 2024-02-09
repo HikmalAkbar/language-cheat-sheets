@@ -243,3 +243,72 @@ The margin is the space outside the element's border and defines the distance be
 ### 5. Typography
 Typography in CSS refers to the styling and formatting of text on web pages. CSS provides various properties to control typography, including font-family, font-size, font-weight, line-height, text-align, and text-decoration, among others. Here's an overview of some commonly used typography-related CSS properties:
 
+#### 5.1 Font Family
+Specifies the font or list of fonts to be used for text rendering. You can specify multiple fonts separated by commas to provide fallback options if the preferred font is not available.
+
+```css
+body {
+    font-family: Arial, sans-serif;
+}
+```
+
+#### 5.2  Font Size
+Sets the size of the font. You can specify the size in various units such as pixels (px), points (pt), percentages (%), ems (em), or keywords like small, medium, large, etc.
+
+```css
+h1 {
+    font-size: 24px;
+}
+```
+
+#### 5.3 Font Weight
+Specifies the thickness of the font. Common values include normal, bold, bolder, lighter, or numeric values like 100, 200, ..., 900.
+
+```css
+p {
+    font-weight: bold;
+}
+```
+
+#### 5.4 Line Height
+Sets the height of a line of text. It can be specified as a number, unitless value, percentage, or length.
+
+```css
+p {
+    line-height: 1.5;
+}
+```
+
+#### 5.5 Text Align
+Specifies the horizontal alignment of text within its container. Common values include left, right, center, and justify.
+
+```css
+.container {
+    text-align: center;
+}
+```
+
+#### 5.6 Text Decoration
+Adds decorative styling to text, such as underline, overline, line-through, or none.
+
+```css
+a {
+    text-decoration: none;
+}
+```
+
+#### 5.7 Text Indent
+Used to specify the indentation of the first line of text within an element. It allows you to control the amount of space between the left (or right, in RTL languages) edge of the element's content area and the start of the text.
+
+```css
+p {
+    text-indent: 2em;
+    /*text-indent: 20px;
+    text-indent: 25%;
+    text-indent: -10px;*/
+}
+```
+
+#### 5.7 
+#### 5.7 
+#### 5.7 
