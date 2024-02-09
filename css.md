@@ -419,4 +419,37 @@ div {
 }
 ```
 
-### 6 
+### 6 Pseudo-classes
+In CSS, pseudo-classes are used to define a special state of an element. They allow you to style elements based on user interaction or specific conditions that cannot be targeted using regular class or ID selectors alone.
+
+Here are some commonly used pseudo-classes in CSS:
+
+- :hover: Styles an element when the mouse pointer is over it.
+- :active: Styles an element while it is being activated by the user (e.g., clicking a link).
+- :focus: Styles an element when it gains focus (e.g., via keyboard navigation or clicking).
+- :visited: Styles a link that has been visited by the user.
+- :first-child: Styles the first child element of its parent.
+- :last-child: Styles the last child element of its parent.
+- :nth-child(): Styles elements based on their position within their parent. It allows you to target elements by index or using a formula.
+- :nth-of-type(): Similar to :nth-child(), but only matches elements of a specified type.
+- :not(): Styles elements that do not match a specified selector.
+- :checked: Styles form elements (like checkboxes or radio buttons) that are checked.
+
+```css
+/* Styles for links */
+a:hover {
+    color: red; /* Change color when hovered */
+}
+
+/* Styles for form inputs */
+input:focus {
+    border-color: blue; /* Change border color when focused */
+}
+
+/* Styles for list items */
+li:nth-child(odd) {
+    background-color: lightgray; /* Alternating background colors for odd list items */
+}
+```
+
+### 7 List
