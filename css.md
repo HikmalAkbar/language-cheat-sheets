@@ -179,7 +179,7 @@ background-color: hsla(240, 100%, 50%, 0.75); /* semi-transparent blue */
 ### 3. Units
 
 > [!NOTE]
-> Don't use *font-size: px;* as it is going to take away user's option from changing their browser font size
+> Don't use *font-size: px;* as it is going to take away user's option from changing their browser font size.
 > Value keywords not included below: normal, number, initial, inherit 
 
 In CSS, there are various units of measurement used to define sizes and distances. These units can be broadly categorized into two types: absolute units and relative units. Here's an overview of each:
