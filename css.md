@@ -455,8 +455,7 @@ li:nth-child(odd) {
 In CSS, the display property specifies the display behavior of an element. It determines how an element is rendered in the document flow. There are several values for the display property, each with its own behavior. Here's a brief overview:
 
 #### 7.1 Block
-This value makes the element a block-level element. Block-level elements start on a new line and take up the full width available. 
-Examples of block-level elements include <div>, <p>, <h1> - <h6>, <ul>, <ol>, etc.
+This value makes the element a block-level element. Block-level elements start on a new line and take up the full width available. Examples of block-level elements include "<div>", "<p>", "<h1>" - "<h6>", "<ul>", "<ol>", etc.
 
 ```css
 /* Styles for links */
