@@ -458,8 +458,19 @@ In CSS, the display property specifies the display behavior of an element. It de
 This value makes the element a block-level element. Block-level elements start on a new line and take up the full width available. Examples of block-level elements include <div>, <p>, <h1> - <h6>, <ul>, <ol>, etc.
 
 ```css
-.example {
-    display: block;
+/* Styles for links */
+a:hover {
+    color: red; /* Change color when hovered */
+}
+
+/* Styles for form inputs */
+input:focus {
+    border-color: blue; /* Change border color when focused */
+}
+
+/* Styles for list items */
+li:nth-child(odd) {
+    background-color: lightgray; /* Alternating background colors for odd list items */
 }
 ```
 
