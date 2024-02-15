@@ -243,7 +243,7 @@ The margin is the space outside the element's border and defines the distance be
 ### 5. Typography
 Typography in CSS refers to the styling and formatting of text on web pages. CSS provides various properties to control typography, including font-family, font-size, font-weight, line-height, text-align, and text-decoration, among others. Here's an overview of some commonly used typography-related CSS properties:
 
-#### 5.1 Font Family
+#### 5.1 - Font Family
 Specifies the font or list of fonts to be used for text rendering. You can specify multiple fonts separated by commas to provide fallback options if the preferred font is not available.
 
 ```css
@@ -252,7 +252,7 @@ body {
 }
 ```
 
-#### 5.2  Font Size
+#### 5.2 - Font Size
 Sets the size of the font. You can specify the size in various units such as pixels (px), points (pt), percentages (%), ems (em), or keywords like small, medium, large, etc.
 
 ```css
@@ -269,7 +269,7 @@ span {
 }
 ```
 
-#### 5.3 Font Style
+#### 5.3 - Font Style
 The font-style property in CSS is used to specify the style of the font in text elements. It controls whether the text is displayed in a normal, italic, or oblique style.
 
 ```css
@@ -282,7 +282,7 @@ h1 {
 }
 ```
 
-#### 5.4 Font Weight
+#### 5.4 - Font Weight
 Specifies the thickness of the font. Common values include normal, bold, bolder, lighter, or numeric values like 100, 200, ..., 900.
 
 ```css
@@ -299,7 +299,7 @@ span {
 }
 ```
 
-#### 5.5 Line Height
+#### 5.5 - Line Height
 Sets the height of a line of text. It can be specified as a number, unitless value, percentage, or length.
 
 ```css
@@ -316,7 +316,7 @@ span {
 }
 ```
 
-#### 5.6 Text Align
+#### 5.6 - Text Align
 Specifies the horizontal alignment of text within its container. Common values include left, right, center, and justify.
 
 ```css
@@ -325,7 +325,7 @@ Specifies the horizontal alignment of text within its container. Common values i
 }
 ```
 
-#### 5.7 Text Decoration
+#### 5.7 - Text Decoration
 Adds decorative styling to text, such as underline, overline, line-through, or none.
 
 ```css
@@ -334,7 +334,7 @@ a {
 }
 ```
 
-#### 5.8 Text Indent
+#### 5.8 - Text Indent
 Used to specify the indentation of the first line of text within an element. It allows you to control the amount of space between the left (or right, in RTL languages) edge of the element's content area and the start of the text.
 
 ```css
@@ -346,7 +346,7 @@ p {
 }
 ```
 
-#### 5.9 Letter Spacing 
+#### 5.9 - Letter Spacing 
 In CSS, the letter-spacing property is used to control the spacing between characters in text. It allows you to adjust the amount of space between each letter in a text element, either increasing or decreasing the spacing.
 
 ```css
@@ -359,7 +359,7 @@ h1 {
 }
 ```
 
-#### 5.10 Word Spacing 
+#### 5.10 - Word Spacing 
 In CSS, the word-spacing property is used to control the spacing between words in text. It allows you to adjust the amount of space between words within a text element.
 
 ```css
@@ -372,7 +372,7 @@ h1 {
 }
 ```
 
-#### 5.11 Text Transform 
+#### 5.11 - Text Transform 
 The text-transform property in CSS is used to specify how the text should be capitalized. It allows you to control the capitalization of text within an element, converting it to uppercase, lowercase, or capitalize the first letter of each word.
 
 ```css
@@ -389,7 +389,7 @@ span {
 }
 ```
 
-#### 5.12 White Space 
+#### 5.12 - White Space 
 In CSS, the white-space property is used to control how white space inside an element is handled. It specifies whether to preserve white space characters such as spaces, tabs, and line breaks, or to collapse them into a single space.
 
 ```css
@@ -406,7 +406,7 @@ span {
 }
 ```
 
-#### 5.13 Text Overflow 
+#### 5.13 - Text Overflow 
 In CSS, the text-overflow property is used to specify how overflowed text should be handled when it's too long to fit within its container. It is particularly useful when dealing with text elements that have a fixed width and may contain content that exceeds that width.
 
 ```css
@@ -454,7 +454,7 @@ li:nth-child(odd) {
 ### 7. Display
 In CSS, the display property specifies the display behavior of an element. It determines how an element is rendered in the document flow. There are several values for the display property, each with its own behavior. Here's a brief overview:
 
-#### 7.1 Block
+#### 7.1 - Block
 This value makes the element a block-level element. Block-level elements start on a new line and take up the full width available. Examples of block-level elements include div, p, h1 - h6, ul, ol, etc.
 
 ```css
@@ -463,7 +463,7 @@ This value makes the element a block-level element. Block-level elements start o
 }
 ```
 
-#### 7.2 Inline
+#### 7.2 - Inline
 This value makes the element an inline-level element. Inline-level elements do not start on a new line and only take up as much width as necessary. Examples of inline-level elements include span, a, strong, em, etc.
 
 ```css
@@ -472,7 +472,7 @@ This value makes the element an inline-level element. Inline-level elements do n
 }
 ```
 
-#### 7.3 Inline-block
+#### 7.3 - Inline-block
 This value makes the element an inline-level block container. It behaves like an inline-level element, but you can set a width, height, margins, and padding. It also respects line breaks and whitespace in the HTML.
 
 ```css
@@ -481,7 +481,7 @@ This value makes the element an inline-level block container. It behaves like an
 }
 ```
 
-#### 7.4 None
+#### 7.4 - None
 This value hides the element from the page layout entirely. The element will not be displayed and will not take up any space.
 
 ```css
@@ -490,3 +490,8 @@ This value hides the element from the page layout entirely. The element will not
 }
 ```
 
+#### 7.5 - Differences
+
+![image](https://github.com/HikmalAkbar/language-cheat-sheets/assets/92555952/eeb3cece-1151-4ca2-a1ce-773aebc353bf)
+
+### 8 
