@@ -458,44 +458,9 @@ In CSS, the display property specifies the display behavior of an element. It de
 This value makes the element a block-level element. Block-level elements start on a new line and take up the full width available. Examples of block-level elements include <div>, <p>, <h1> - <h6>, <ul>, <ol>, etc.
 
 ```css
-div {
-    width: 200px; /* Set a fixed width for the container */
-    white-space: nowrap; /* Prevent text from wrapping */
-    overflow: hidden; /* Hide any overflowing content */
-    text-overflow: ellipsis; /* Append an ellipsis to the end of the text */
-}
-```
-
-```css
 .example {
     display: block;
 }
 ```
 
-#### 7.2 Inline
-This value makes the element an inline-level element. Inline-level elements do not start on a new line and only take up as much width as necessary. Examples of inline-level elements include <span>, <a>, <strong>, <em>, etc.
-
-```css
-.example {
-    display: inline;
-}
-```
-
-#### 7.3 Inline-block
-This value makes the element an inline-level block container. It behaves like an inline-level element, but you can set a width, height, margins, and padding. It also respects line breaks and whitespace in the HTML.
-
-```css
-.example {
-    display: inline-block;
-}
-```
-
-#### 7.4 None
-This value hides the element from the page layout entirely. The element will not be displayed and will not take up any space.
-
-```css
-.example {
-    display: none;
-}
-```
 
