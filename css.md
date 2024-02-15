@@ -458,6 +458,15 @@ In CSS, the display property specifies the display behavior of an element. It de
 This value makes the element a block-level element. Block-level elements start on a new line and take up the full width available. Examples of block-level elements include <div>, <p>, <h1> - <h6>, <ul>, <ol>, etc.
 
 ```css
+div {
+    width: 200px; /* Set a fixed width for the container */
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide any overflowing content */
+    text-overflow: ellipsis; /* Append an ellipsis to the end of the text */
+}
+```
+
+```css
 .example {
     display: block;
 }
